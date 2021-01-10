@@ -1,6 +1,9 @@
 # alfa-script
-A language to control logic flow independently of user interface.  
-The language is based on JavaScript, nonblocking and event driven.
+An asynchronous language to control logic flow.
+It has
+ - events
+ - actions
+The language is based on JavaScript
 
 ## User Interface Parts
 ### Applet

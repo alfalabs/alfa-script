@@ -1,0 +1,19 @@
+{
+  "name": "alfa-script",
+  "version": "0.0.1",
+  "description": "A language to control logic flow",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfalabs/alfa-script.git"
+  },
+  "author": "alfalabs.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfalabs/alfa-script/issues"
+  },
+  "homepage": "https://github.com/alfalabs/alfa-script#readme"
+}
