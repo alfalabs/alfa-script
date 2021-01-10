@@ -15,20 +15,36 @@
 <body>
     <h1><img src="alfa-script-png.ico">AlfaScript <img src="alfa-romeo.png"></h1>
 
-    An asynchronous language to control logic flow.<br>
-    It has:
-    <ul>
-        <li>events</li>
-        <li>actions</li>
-    </ul>
-
+    An asynchronous language to control logic flow. 
     The language is based on JavaScript. 
-    <a href="README.md" target="_blank">README.md</a><br>
+    <br><br>
+    <!-- <a href="README.md" target="_blank">README.md</a><br> -->
+
+    <div alfa-menu-controls></div>
+    <nav alfa-menu-container></nav>
 
     <script type="module">
         /* test for ES5 import not working in github.io pages */
         import testObj from './test.mjs'
         console.log('imported object', testObj)
+        /////////////////
+
+        const $dqs = document.querySelector.bind(document)
+
+        import AlfaMenu from './ALFA_es6modules/alfa-menu-ui.mjs'; 
+        import appletsAlfaMenu from './menu-data.js';
+
+        window.alfaMenu1 = new AlfaMenu(
+            appletsAlfaMenu, 
+            'nav[alfa-menu-container]', 
+            {
+                controlsContainerSelector:'div[alfa-menu-controls]',
+                // onItemClick: function(itemIndex, item, id){
+                //     console.log('[index.html] menu on onItemClick:', itemIndex, item, id );
+                // }
+            }
+        );
+
     </script>
 </body>
 </html>
