@@ -1,6 +1,6 @@
 {
   "name": "alfa-script",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A language to control logic flow",
   "main": "",
   "scripts": {
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/alfalabs/alfa-script/issues"
   },
-  "homepage": "https://github.com/alfalabs/alfa-script#readme"
+  "homepage": "https://alfalabs.github.io/alfa-script/"
 }

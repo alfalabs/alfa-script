@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alfa-script</title>
     <style>
-        body{margin-left: 1em; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+        body{margin-left: 2em; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
         h1{color: #d40000; font-size: 4em;}
         h1 img{vertical-align: middle; height: 128px;}
         img[src="alfa-romeo.png"]{float: right; margin-right: 1em;}
@@ -25,5 +25,10 @@
     The language is based on JavaScript. 
     <a href="README.md" target="_blank">README.md</a><br>
 
+    <script type="module">
+        /* test for ES5 import not working in github.io pages */
+        import testObj from './test.mjs'
+        console.log('imported object', testObj)
+    </script>
 </body>
 </html>
